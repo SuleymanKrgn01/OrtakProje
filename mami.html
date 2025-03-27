@@ -1,12 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="tr">
 <head>
-<title>Sayfa Başlığı</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doğan SLX</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <h1>Doğan SLX</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Ana Sayfa</a></li>
+                <li><a href="#">İlanlar</a></li>
+                <li><a href="#">Hakkında</a></li>
+                <li><a href="#">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<h1>Bu bir başlıktır.</h1>
-<p>Bu bir paragraftır.</p>
+    <main>
+        <section id="ana-sayfa">
+            <h2>Hoş Geldiniz</h2>
+            <p>Doğan SLX tutkunları için özel olarak hazırlanmış bu web sitesine hoş geldiniz.</p>
+        </section>
 
+        <section id="ilanlar">
+            <h2>İlanlar</h2>
+            <div class="ilan">
+                <img src="dogan-slx-1.jpg" alt="Doğan SLX 1">
+                <h3>Doğan SLX 1993</h3>
+                <p>Fiyat: 50.000 TL</p>
+                <a href="#">Detaylar</a>
+            </div>
+
+            <div class="ilan">
+                <img src="dogan-slx-2.jpg" alt="Doğan SLX 2">
+                <h3>Doğan SLX 1995</h3>
+                <p>Fiyat: 60.000 TL</p>
+                <a href="#">Detaylar</a>
+            </div>
+            // ... daha fazla ilan ekleyebilirsiniz ...
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Doğan SLX</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
-</html>   
+</html>
