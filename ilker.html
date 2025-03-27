@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peugeot 2008 Tanıtımı</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .car-image {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 40px;
+        }
+        .feature {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .feature h3 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+        .feature p {
+            font-size: 16px;
+            color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 50px;
+        }
+        @media (max-width: 768px) {
+            .features {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Peugeot 2008</h1>
+    <p>Modern Tasarım ve Gelişmiş Teknolojinin Mükemmel Uyumu</p>
+</header>
+
+<div class="container">
+    <!-- Dış Tasarım Resmi -->
+    <section>
+        <h2>Peugeot 2008 Dış Tasarımı</h2>
+        <img src="https://images.unsplash.com/photo-1561461442-2d34d760d9d1" alt="Peugeot 2008 Dış Tasarım" class="car-image">
+    </section>
+
+    <!-- İç Tasarım Resmi -->
+    <section>
+        <h2>Peugeot 2008 İç Tasarımı</h2>
+        <img src="https://images.unsplash.com/photo-1580179704386-58595eebda6d" alt="Peugeot 2008 İç Tasarım" class="car-image">
+    </section>
+
+    <section class="features">
+        <div class="feature">
+            <h3>Performans</h3>
+            <p>Peugeot 2008, güçlü motor seçenekleri ve çevre dostu tasarımı ile mükemmel bir sürüş deneyimi sunar.</p>
+        </div>
+        <div class="feature">
+            <h3>Teknoloji</h3>
+            <p>Peugeot'un son teknoloji güvenlik ve sürüş destek sistemleri ile her yolculuk daha güvenli ve konforlu.</p>
+        </div>
+        <div class="feature">
+            <h3>Tasarım</h3>
+            <p>Şık ve modern tasarımı ile Peugeot 2008, her açıdan dikkat çeker. Hem dış hem de iç tasarımda estetik ön planda.</p>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>© 2025 Peugeot. Tüm hakları saklıdır.</p>
+</footer>
+
+</body>
+</html>
